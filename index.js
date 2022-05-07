@@ -68,7 +68,7 @@ async function run() {
 
     }
 
-    console.log("Jewels Spareckes Connected");
+    console.log("Sparckle Connected");
 };
 
 run().catch(console.dir);
