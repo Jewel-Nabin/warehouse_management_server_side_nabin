@@ -22,6 +22,7 @@ async function run() {
             const query = {};
             const cursor = itemCollection.find(query);
             const items = await cursor.toArray();
+            console.log('items');
             res.send(items);
         });
 
